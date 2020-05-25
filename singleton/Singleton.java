@@ -10,9 +10,10 @@ public class Singleton {
         System.out.println("Singleten object has created");
     }
 
+    // Double checked Locking design secures thread-safe structure and allows lazy loading
     public static Singleton getSingleton(){
 
-        // If there is threads, this code bloke assured threads reach
+        // If there is threads, this code block assured threads reachs
         // and creates only one singleton object
 
         if (singleton == null) {
