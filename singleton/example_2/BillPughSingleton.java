@@ -1,7 +1,5 @@
 package singleton.example_2;
 
-import singleton.example_1.Singleton;
-
 public class BillPughSingleton {
 
     private BillPughSingleton() {
